@@ -1,2 +1,10 @@
 body{background:#efefee}
-#main{width:50%;padding-top:2em;margin:auto; line-height: 1.5em; font-size: 1.5em;}
+@font-face{font-family:samim;font-weight:400;src:url(fonts/samim/samim.eot);src:url(fonts/samim/samim#iefix) format("embedded-opentype"),url(fonts/samim/samim.woff) format("woff"),url(fonts/samim/samim.ttf) format("truetype"),url(fonts/samim/samim.ttf) format('svg')}
+.fa{direction: rtl; text-align: right; color:#404040;font-family:samim;}
+#first-page{width:50%;padding-top:2em;margin:auto; line-height: 1.5em; font-size: 1.4em;}
+#article{width:50%;padding-top:2em;margin:auto; line-height: 1.5em; font-size: 1.4em;}
+
+@media only screen and (max-device-width: 480px) {
+    #first-page{width:90%}
+    #article{width:90%}
+}
