@@ -4,6 +4,7 @@ body{background:#efefee}
 .fa{direction: rtl; text-align: right; color:#404040;font-family:samim;}
 #first-page{width:50%;padding-top:2em;margin:auto; line-height: 1.5em; font-size: 1.4em;}
 #article{width:50%;padding-top:2em;margin:auto;}
+.w800{width:800px;}
 
 @media only screen and (max-device-width: 480px) {
     #first-page{width:90%}
