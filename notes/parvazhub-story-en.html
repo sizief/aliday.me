@@ -1,0 +1,55 @@
+Story of Parvazhub
+
+I started working on PARVAZHUB on May of 2017, just after I had left my previous job. I wanted to create something of my own. In ZORAQ we had thought about the price differences among online sellers, we even had an Excel file with some rough numbers .I had two things on my mind: first of all, how hard was making something like SkyScanner? Secondly, Can you make money out of it? The answers were: If you like creating stuff, then nothing can be hard for you and yes, you can make money out of this idea.
+
+Best Part Of The Story
+
+I chose Ruby on Rails which I only knew a little about it back then. There were a lot I hadn’t any experience, I didn’t grasp the whole magic of open source world. Since I didn’t want an Iranian host and didn’t have a credit card, I had to learn Docker, Docker-based CI to use Iranian Cloud service. I had to improve my knowledge of Linux. Likewise, My testing and Test-driven development had to improve.
+
+Learning these skills and creating the first version of PARVAZHUB took about one month. I worked at home and relied on my savings. On July I presented a more developed version of Parvazhub at Elecomp (Iranian electronic and computer exhibition). It was July that Parvazhub views started rising and the numbers kept growing.
+
+By the end of summer, I had made changes to Parvazhub and had spent time on debugging. What took most of my time was finding a way to get the data from ticket selling sites (OTA) which I’ll explain later. I also had to concentrate on testing the parts I had neglected before.
+
+Now that I look back, I realize I chose the right path. I chose the technology that I enjoyed and had a super active society. I didn’t waste my time on scaling. I ran the first thing that would work and answer the users’ need and tested it on people around me. I think about the tests before coding. I cared about CI and didn’t work over 10 hours each day.
+
+Financial Things
+
+Since the beginning I was wondering if I could make money out of it? I knew users would only use Parvazhub if it had data from various websites .However, ticket selling websites would share their prices to a business with a high amount of users. The classic chicken or the egg. But this wasn’t the only problem, most of ticket selling websites didn’t have a web service or didn’t care for building one for someone other than their team. Therefore I tried something else: I detected the end point of the web services through their applications and found my way to the usage of their web service. Then I was left with the complicated part, how would I get money from these sites?
+
+Parvazhub could earn money throughout two ways: After each users purchase some percentage of the profit would go to Parvazhub or for a fixed number of visits of the website throughout Parvazhub per each month, we would be paid, something similar to Google ads. The first way was too complicated for me and the ticket selling websites, since they had to save the source that had led the customer to their websites and report back to me later. This was the case assuming that complicated situations such as cancelations or alterations on tickets would be ignored. Therefor I chose the second way: for example we’ll send 10 users to your website each day and you will pay us some amount per person at the end of the month.
+
+I faced the second obstacle at the end of summer: The quality of the users sent to each website didn’t matter to the ticket selling websites. Parvazhub was only directing users to website just like the advertisements on any other websites. Thus it didn’t matter if they got 500 high quality users or 2500 ordinary users. The only thing that mattered to them was the high numbers, something that we didn’t have at Parvazhub at that time.
+
+We always had this issue with bigger websites, but smaller websites eventually understood the value of the users directed to their website and this led to a better partnership between us. We worked with each site by the method they preferred and we earned just as much to meet the ends.
+
+About Human Resources
+
+I worked from home for at least 6 months. The hardest part was to avoid mixing the working and relaxing time. Your desk is nearby and you may be tempted to work on a bug that has stuck in your mind in the middle of the night. The first thing that comes to mind is turning on the computer and working, which is clearly wrong. I found two techniques very useful. Setting working hours and working out. For example 7pm-12am is relaxation time and working is prohibited. An exercise that would increase heart beat and can be done regularly is also very helpful. I’ve written more on running here.
+
+I never gathered a team for Parvazhub. For Elecomp I had Hesam at my side and Arash wrote my android app. But basically there was no real team work, which there was no need for it either.
+
+Wherever I talked about Parvazhub (meetings with ticket selling websites or even in some interviews) I wasn’t totally honest about having a team. Companies and people are more likely to trust in a business with a team rather than one person. Going solo on a business is a sign of lacking the ability to build a team and scaling, rather than being a sign of wisdom.
+
+Some Statistics
+
+I didn’t spend money on advertising. Everything happened almost naturally, marketing-wise.
+
+The first two rises in the visits appeared after Jadi and Digiato posted about Parvazhub. The next rise was made by the 3 day blizzard in Tehran which caused a lot of ticket searching. Besides, Ali talked about Parvazhub on ChannelB. Other than these, the views increased slowly and continuously. More than 250000 users used our services and more than 25000 found the cheapest flight ticket throughout Parvazhub.
+
+What’s ahead
+
+Although Parvazhub is still running and has its own natural growth, I hadn’t work on it since last year. Maybe one day if I wasn’t satisfied with the outcome, I will take Parvazhub down. Last summer I open-sourced Parvazhubs code. This was my first experience with release. It could have been better but the important part is that the code works and has a good test-cover.
+
+Happy Hour
+
+Alibaba.ir (biggest OTA in Iran) was the second website I reached in order to build a partnership. I expected they would be very happy that someone had compared their prices with their competitors, but not only they weren’t happy about that, they had me remove Alibaba from Parvazhub. They also changed the terms and conditions on their website and added this sentence “collecting data from our website is forbidden”. Respina even threatened to sue. Their prices weren’t that much higher that other websites, but they didn’t care for having them compared with other competitors.
+
+Travelchi.ir figured out Parvazhub was using their IP. They added one condition to their application that a specific word would be sent on the header request. I found out and sent that specific word. They changed that word and I updated the code. After repeating this procedure for several times, they called and asked me not to search their website. Always use encrypted channel for sending data between client application and server. Shanbe weekly newspaper wanted a picture of Parvazhub team for their interview! I asked Hesam to play the rule of a team member and stood next to me in the picture, a picture that was supposed to present a successful startup!
+
+What I learned
+
+While building a business is a hard job, when succeeded the profit will be higher as well. I personally find more joy in creating than scaling. I think the joy/money of creating businesses is not worth the difficulties.
+
+Open sourcing, sharing and teaching have a main role in the growth of software engineering. Anything that I think I have learned well, I should share with others. Anything that can be useful should be open sourced.
+
+To my opinion the main problem with most of the companies is themselves. They are not the users of their own product. Also they are not enjoying building it. They are missing the main point. It’s shame they wouldn’t understand this fact.
